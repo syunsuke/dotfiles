@@ -1,0 +1,5 @@
+escape 
+
+caption always "%-w%10L>%{=b bw}%n %t%{-}%+w%-0="
+#caption always '%?%F%{= bw}%:%{= wk}%?%2n%f%07=%t%='
+hardstatus alwayslastline "%H%=%Y/%m/%d %02c"
