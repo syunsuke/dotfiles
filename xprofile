@@ -1,0 +1,21 @@
+#
+# ~/.xprofile
+#
+
+export LANG=ja_JP.UTF-8
+
+xset +fp ~/.fonts/
+xset fp rehash
+
+# xmodmap -e 'keysym Muhenkan = Super_L'
+
+export GTK_IM_MODULE='uim'
+export  QT_IM_MODULE='uim'
+uim-xim &
+export XMODIFIERS=@im='uim'
+
+compton &
+feh --bg-fill ~/image/wallpaper/background.png &
+
+unclutter -idle 5 &
+

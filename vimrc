@@ -7,6 +7,7 @@ set smartindent
 set nobackup
 set laststatus=2
 set tabstop=4
+set ignorecase
 
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 "キーバインド
