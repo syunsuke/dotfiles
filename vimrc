@@ -19,7 +19,7 @@ noremap <Space>f :<C-u>Unite file<CR>
 "ghcmod haskell型チェック
 nnoremap <F1> :<C-u>GhcModType<CR>
 nnoremap <F2> :<C-u>GhcModTypeClear<CR>
-nnoremap <F3> :<C-u>GhcModCheckAndLintAsync<CR>
+nnoremap <F3> :<C-u>GhcModCheck<CR>
 
 "vimrcへの書き込み
 nnoremap <F5> :<C-u>split $MYVIMRC<CR>
